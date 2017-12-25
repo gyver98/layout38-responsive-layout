@@ -24,3 +24,8 @@
     background-color: #b2d6ff;
   }
 }
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
