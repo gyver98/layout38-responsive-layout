@@ -4,26 +4,6 @@
   box-sizing: border-box;
 }
 
-/* Mobile styles */
-@media only screen and (max-width: 400px) {
-  body {
-    background-color: #f09af0;
-  }
-}
-
-/* Tablet styles */
-@media only screen and (min-width: 401px) and (max-width: 906px) {
-  body {
-    background-color: #f5cf8e;
-  }
-}
-
-/* Desktop styles */
-@media only screen and (min-width: 961px) {
-  body {
-    background-color: #b2d6ff;
-  }
-}
 
 .page {
   display: flex;
@@ -67,3 +47,18 @@
 .feature-3 {
   background-color: #C8C6FA;
 }
+
+/* Tablet styles */
+@media only screen and (min-width: 401px) and (max-width: 906px) {
+  .sign-up,
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    width: 50%;
+  }
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 961px) {
+  
+  }
